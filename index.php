@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8" />
         <title>Margo</title>
+        <script type="text/javascript" src="verifierlogin.js"> </script>
     </head>
     
     <body>
@@ -25,7 +26,7 @@
             <article>                
                 <h1 id="compte">Mon compte</h1>
 
-                <form method="post" action="login.php" id="form1">
+                <form method="post" action="login.php" id="form1" onsubmit="return valider(this)"> 
                     <label for="nom">Nom d'utilisateur</label>
                     <input type="text" name="login" id="login" />
                     </br>

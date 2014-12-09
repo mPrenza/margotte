@@ -21,10 +21,10 @@
         <nav id="navGauche">
             <ul>
                 <h4 id="titreMenuNav">Menu principal<h4>
-                        <li class="menuP" id="accueil"><a href="/margotte/vue/vueAccueil.inc.php">Accueil</a></li>
-                        <li class="menuP" id="listeEnseignants"><a href="/margotte/vue/vueListeEnseignant.php">Liste enseignants</a></li>
-                        <li class="menuP" id="listeEleves"><a href="/margotte/vue/vueListeEleve.php">Liste eleves</a></li>
-                        <li class="menuP" id="creerPersonne"><a href="/margotte/vue/vueFormulaire.inc.php">Creer personne</a></li>
+                        <li class="menuP" id="accueil"><a href="/sites/margotte/vue/vueAccueil.inc.php">Accueil</a></li>
+                        <li class="menuP" id="listeEnseignants"><a href="/sites/margotte/vue/vueListeEnseignant.php">Liste enseignants</a></li>
+                        <li class="menuP" id="listeEleves"><a href="/sites/margotte/vue/vueListeEleve.php">Liste eleves</a></li>
+                        <li class="menuP" id="creerPersonne"><a href="/sites/margotte/vue/vueFormulaire.inc.php">Creer personne</a></li>
                         </ul>
                         </nav>
                         <section>
@@ -48,7 +48,7 @@
                             mysql_select_db($bdd) or die("erreur de connexion a la base de donnees");
 
 // Creation et envoi de la requete
-                            $query = "SELECT NOM,PRENOM FROM PERSONNE WHERE role=3";
+                            $query = "SELECT NOM,PRENOM FROM PERSONNE WHERE role=3 ORDER BY CODECLASS_HER_1";
 
                             $result = mysql_query($query);
 
