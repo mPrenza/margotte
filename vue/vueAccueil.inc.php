@@ -14,7 +14,7 @@
             <nav id="navHeader">
                 <ul id="menuHaut">
                     <li class="menuPHaut" id="compteBtn"><a href="#">Mon Compte</a></li>
-                    <li class="menuPHaut" id="deconnect"><a href="#">Deconnexion</a></li>
+                    <li class="menuPHaut" id="deconnect"><a href="/margotte/logout.php">Deconnexion</a></li>
                 </ul>
             </nav>
         </header>
