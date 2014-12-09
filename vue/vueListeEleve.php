@@ -48,7 +48,7 @@
                             mysql_select_db($bdd) or die("erreur de connexion a la base de donnees");
 
 // Creation et envoi de la requete
-                            $query = "SELECT NOM,PRENOM FROM PERSONNE P INNER JOIN FILIERE F ON F.IDRESP=P.IDPERS ORDER BY F.LIBFILIERE";
+                            $query = "SELECT NOM,PRENOM FROM PERSONNE WHERE role=3";
 
                             $result = mysql_query($query);
 
