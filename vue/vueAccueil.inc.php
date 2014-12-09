@@ -21,10 +21,10 @@
         <nav id="navGauche">
             <ul>
                 <h4 id="titreMenuNav">Menu principal<h4>
-                        <li class="menuP" id="accueil"><a href="#">Accueil</a></li>
-                        <li class="menuP" id="listeEnseignants"><a href="/margo/vue/vueListeEnseignant.php">Liste enseignants</a></li>
-                        <li class="menuP" id="listeEleves"><a href="/margo/vue/vueListeEleve.php">Liste eleves</a></li>
-                        <li class="menuP" id="creerPersonne"><a href="/margo/vue/vue2.inc.php">Creer personne</a></li>
+                        <li class="menuP" id="accueil"><a href="/margotte/vue/vueAccueil.inc.php">Accueil</a></li>
+                        <li class="menuP" id="listeEnseignants"><a href="/margotte/vue/vueListeEnseignant.php">Liste enseignants</a></li>
+                        <li class="menuP" id="listeEleves"><a href="/margotte/vue/vueListeEleve.php">Liste eleves</a></li>
+                        <li class="menuP" id="creerPersonne"><a href="/margotte/vue/vueFormulaire.inc.php">Creer personne</a></li>
 
                         </ul>
                         </nav>
